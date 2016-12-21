@@ -1,4 +1,11 @@
-﻿  main.cpp
-d:\github\predicttestscore\predicttestscore\predicttestscore\main.cpp(18): warning C4102: 'Terminate': unreferenced label
-  PredictTestScore.vcxproj -> D:\github\PredictTestScore\PredictTestScore\Debug\PredictTestScore.exe
-  PredictTestScore.vcxproj -> D:\github\PredictTestScore\PredictTestScore\Debug\PredictTestScore.pdb (Full PDB)
+﻿  Neural_Network.cpp
+d:\github\predicttestscore\predicttestscore\predicttestscore\neural_network.cpp(19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\github\predicttestscore\predicttestscore\predicttestscore\neural_network.cpp(39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\github\predicttestscore\predicttestscore\predicttestscore\neural_network.cpp(53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\github\predicttestscore\predicttestscore\predicttestscore\neural_network.cpp(62): error C2065: 'n': undeclared identifier
+d:\github\predicttestscore\predicttestscore\predicttestscore\neural_network.cpp(62): error C2143: syntax error: missing ';' before '}'
+  Generating Code...
+  Compiling...
+  main.cpp
+d:\github\predicttestscore\predicttestscore\predicttestscore\main.cpp(29): warning C4102: 'Terminate': unreferenced label
+  Generating Code...

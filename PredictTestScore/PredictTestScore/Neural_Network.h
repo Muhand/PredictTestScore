@@ -8,10 +8,21 @@
 class Neural_Network
 {
 public:
-private:
-	//Functions
 	Neural_Network();								//Default Constructor
 	~Neural_Network();								//Destructor
+	float sigmoid(float x);
+	void printArray(float **array, int rows, int cols);
+	void forward(float**x);
+
+	//Getters and setters
+	int getInputLayerSize() const;
+	int getOutputLayerSize() const;
+	int gethiddenLayerSize() const;
+	float **getw1() const;
+	float **getw2() const;
+
+private:
+	//Functions
 	void init();									//This function will take care of initializing variables and constants
 	
 	//Constants
@@ -20,8 +31,8 @@ private:
 	const int hiddenLayerSize = 3;
 
 	//Variables
-	int **w1;
-	int **w2;
+	float **w1;										//Going from input to hidden
+	float **w2;										//Going from hidden to output
 
 };
 
